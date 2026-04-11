@@ -150,7 +150,7 @@ const Footer = () => {
     rel="noopener noreferrer"
     className="text-blue-500 hover:underline"
   >
-    Magran IT •
+    Magran IT consulting •
   </a>
 </p>
             <button
