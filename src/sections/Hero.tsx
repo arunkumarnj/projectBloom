@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, MapPin, Calendar, Heart, Leaf, Users } from 'lucide-react';
+import { ChevronDown, MapPin, Heart, Leaf, Users } from 'lucide-react';
 
 const slideshowImages = [
   '/images/hero.jpg',
