@@ -143,8 +143,16 @@ const Footer = () => {
               © {new Date().getFullYear()} Bloom Charity Trust. All rights reserved.
             </p>
             <p className="text-gray-500 text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> for a better world
-            </p>
+  Made with ❤️ by   
+  <a 
+    href="https://magranitconsulting.com/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline"
+  >
+    Magran IT •
+  </a>
+</p>
             <button
               onClick={scrollToTop}
               className="w-10 h-10 bg-green-600 hover:bg-green-700 rounded-full flex items-center justify-center transition-colors duration-300"
