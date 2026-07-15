@@ -13,6 +13,7 @@ const Navbar = ({ scrollY }: NavbarProps) => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Objectives', href: '#objectives' },
+    { name: 'Events', href: '#events' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Environment', href: '#environment' },
     { name: 'Contact', href: '#contact' },

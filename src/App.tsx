@@ -3,6 +3,7 @@ import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Objectives from './sections/Objectives';
+import Events from './sections/Events';
 import Gallery from './sections/Gallery';
 import Environment from './sections/Environment';
 import Contact from './sections/Contact';
@@ -27,6 +28,7 @@ function App() {
       <Hero />
       <About />
       <Objectives />
+      <Events />
       <Gallery />
       <Environment />
       <Contact />
