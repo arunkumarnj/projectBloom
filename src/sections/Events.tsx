@@ -100,13 +100,13 @@ const Events = () => {
 
           <div className="reveal-scale">
             <div className="rounded-[28px] border border-green-100 bg-white p-3 shadow-[0_20px_80px_-20px_rgba(22,163,74,0.35)]">
-              <div className="relative overflow-hidden rounded-[22px]">
+              <div className="relative overflow-hidden rounded-[22px] h-[360px] sm:h-[430px]">
                 {eventImages.map((image, index) => (
                   <img
                     key={image}
                     src={image}
                     alt={`Event highlight ${index + 1}`}
-                    className={`absolute inset-0 h-[360px] sm:h-[430px] w-full object-cover transition-all duration-700 ease-in-out ${
+                    className={`absolute inset-0 h-full w-full object-cover transition-all duration-700 ease-in-out ${
                       index === currentImage ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
                     }`}
                   />
